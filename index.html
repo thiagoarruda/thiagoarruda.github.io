@@ -1,0 +1,53 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Thiago Arruda's Projects</title>
+  <meta name="description" content="Java, Netty, Low-latency, High-throughput Middleware Developer">
+  <meta name="author" content="Thiago Arruda">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
+
+  <style>
+		.email-text::before {
+	  	content: "thiarruda@gmail.com";
+	  }
+  </style>
+
+</head>
+
+<body>
+	<div class="container grid-lg" style="margin-top: 20px">
+		<h1>Hi there!</h1>
+		<p>
+			Welcome! My name is Thiago, and I've been a Java middleware/back-end developer for nearly 7 years, although I like to learn and tinker with many different languages and technologies (I've done projects in Ruby, Bash, NodeJS, Go, Postgres, to name a few).
+		</p>
+
+		<p>
+			Right now this page is just a placeholder while I figure this thing out, but below you can find out more information about my current work. I'm based in Brazil and I'm looking for meaningful remote work opportunities worldwide. If you'd like to talk about programming, sim racing, books, music or computer games, my email is <strong><span class="email-text tooltip tooltip-bottom" data-tooltip="To avoid spam, please type in this email."/></strong>.
+		</p>
+		<br/>
+		<h3>Work Experience</h3>
+		<br/>
+		<h5>
+			Developer at <a href="https://www.bb.com.br" target="_blank">Banco do Brasil</a>
+			<div class="float-right">Brasília • Since 09/2012</div>
+		</h5>
+		<p>
+			Currently working on the internal Java library that, together with a Service Catalog, enables our applications to consume and provide services using a friendly API that abstracts away all the complexities of communication between platforms (mainframe, distribuited, external) and network transports. We've used <a href="https://netty.io" target="_blank">Netty</a> to ensure the library can provide the performance and latency requirements to support the heavy load of our mobile app, online banking, internal platforms and many other applications.
+		</p>
+
+		<p>
+			Our latest effort has been a collaboration with an Ops team where we used <a href="https://redis.io" target="_blank">Redis</a> to enable solutions that improve network resiliency, reduce response times and mainframe costs, such as:
+		<ul>
+			<li>Self-monitoring load balancing solution for requests coming into the <a href="https://en.wikipedia.org/wiki/CICS" target="_blank">CICS</a> middleware.</li>
+			<li>Dynamic, real-time switching of network transport on a per-service and/or per-consumer basis.</li>
+			<li>Caching solution to enable service responses to be cached in a way that is transparent to both the consumer and the provider.</li>
+		</ul>
+		</p>
+	</div>
+</body>
+</html>
