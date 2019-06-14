@@ -10,44 +10,64 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
 
   <style>
 		.email-text::before {
 	  	content: "thiarruda@gmail.com";
 	  }
+	  img.profile {
+	  	margin-bottom: 20px;
+		  border-radius: 50%;
+		}
   </style>
 
 </head>
 
 <body>
-	<div class="container grid-lg" style="margin-top: 20px">
-		<h1>Hi there!</h1>
-		<p>
-			Welcome! My name is Thiago, and I've been a Java middleware/back-end developer for nearly 7 years, although I like to learn and tinker with many different languages and technologies (I've done projects in Ruby, Bash, NodeJS, Go, Postgres, to name a few).
+	<div class="container grid-lg" style="padding: 15px 15px 15px 15px">
+		<img class="img-responsive profile p-centered" width=150 height=150 src="assets/profile_pic.jpg"/>
+		<h3>Hi there!</h3>
+		<p class="text-justify">			
+			My name is Thiago, and I have been a <strong>Java middleware</strong> developer for about 7 years. I also enjoy learning and tinkering with different languages and technologies.
+		</p>		
+		<p class="text-justify">
+			I'm based in Brazil and currently looking for interesting and challenging <strong>remote</strong> work opportunities anywhere in the world. Below you can find out more information about my current work and experience, and if you'd like to talk about job opportunities, programming, sim racing, books, guitar or computer games, my email is <strong><span class="email-text tooltip tooltip-bottom" data-tooltip="To avoid spam, please type in this email."/></strong>.
 		</p>
 
-		<p>
-			Right now this page is just a placeholder while I figure this thing out, but below you can find out more information about my current work. I'm based in Brazil and I'm looking for meaningful remote work opportunities worldwide. If you'd like to talk about programming, sim racing, books, music or computer games, my email is <strong><span class="email-text tooltip tooltip-bottom" data-tooltip="To avoid spam, please type in this email."/></strong>.
-		</p>
-		<br/>
 		<h3>Work Experience</h3>
-		<br/>
-		<h5>
-			Developer at <a href="https://www.bb.com.br" target="_blank">Banco do Brasil</a>
-			<div class="float-right">Brasília • Since 09/2012</div>
-		</h5>
-		<p>
-			Currently working on the internal Java library that, together with a Service Catalog, enables our applications to consume and provide services using a friendly API that abstracts away all the complexities of communication between platforms (mainframe, distribuited, external) and network transports. We've used <a href="https://netty.io" target="_blank">Netty</a> to ensure the library can provide the performance and latency requirements to support the heavy load of our mobile app, online banking, internal platforms and many other applications.
-		</p>
 
-		<p>
-			Our latest effort has been a collaboration with an Ops team where we used <a href="https://redis.io" target="_blank">Redis</a> to enable solutions that improve network resiliency, reduce response times and mainframe costs, such as:
+		<h5>
+			Developer at <a href="https://www.bb.com.br" target="_blank">Banco do Brasil</a> 
+		</h5>
+		<p class="label label-secondary">
+			<a href="https://en.wikipedia.org/wiki/Bras%C3%ADlia" target="_blank">Brasília</a> • Since 09/2012
+		</p>
+		<p class="text-justify">
+			I'm the lead developer on the Java library that enables our applications to consume and provide services using a friendly API that abstracts away the complexities of communication between environments (mainframe, distributed and external). We've used <a href="https://netty.io" target="_blank">Netty</a> for the flexibility to use many different network transports and to ensure the library can provide the performance and latency requirements to support the heavy load of our mobile app, online banking, internal platforms and many other applications.
+		</p>
+		<p class="text-justify">
+			 My latest work has been with a DevOps team where we used <a href="https://redis.io" target="_blank">Redis</a> to enable solutions that improve network resiliency, reduce response times and mainframe costs, such as:
+		</p>
 		<ul>
 			<li>Self-monitoring load balancing solution for requests coming into the <a href="https://en.wikipedia.org/wiki/CICS" target="_blank">CICS</a> middleware.</li>
-			<li>Dynamic, real-time switching of network transport on a per-service and/or per-consumer basis.</li>
-			<li>Caching solution to enable service responses to be cached in a way that is transparent to both the consumer and the provider.</li>
+			<li>Dynamic switching of network transport on a per-service and/or per-consumer basis.</li>
+			<li>Service caching that can be enabled in real time in a transparent way to both the consumer and the provider.</li>
 		</ul>
-		</p>
+		
+		<h3>Skills and Technologies</h3>
+
+		<ul>
+			<li>Java (and related): Netty, CDI, JMS, TIBCO Rendezvous, Docker, Kafka, JCA and Oracle WebLogic.</li>
+			<li>Used for small tools and side projects: Ruby, Go, Kotlin, JavaScript, NodeJS, React, Electron, Bash and Postgres.</li>
+		</ul>
+
+		<h3>Languages and Education</h3>
+		<ul>	
+			<li>I'm fluent in English and Brazilian Portuguese.</li>
+			<li>I have a bachelor's degree in Computer Science from <a href="https://www.uniceub.br" target="_blank">UniCEUB</a>.</li>
+		</ul>
+
 	</div>
 </body>
 </html>
