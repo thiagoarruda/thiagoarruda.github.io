@@ -5,12 +5,21 @@
   <meta charset="utf-8">
 
   <title>Thiago Arruda's Projects</title>
-  <meta name="description" content="Java, Netty, Low-latency, High-throughput Middleware Developer">
+  <meta name="description" content="Java, Netty, Low latency, High-throughput Middleware Developer">
   <meta name="author" content="Thiago Arruda">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
-  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css"> 
+
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+	<link rel="manifest" href="assets/site.webmanifest">
+	<link rel="mask-icon" href="assets/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="assets/favicon.ico">
+	<meta name="msapplication-TileColor" content="#70bcff">
+	<meta name="msapplication-config" content="assets/browserconfig.xml">
+	<meta name="theme-color" content="#70bcff">
 
   <style>
 		.email-text::before {
@@ -20,49 +29,61 @@
 	  	margin-bottom: 20px;
 		  border-radius: 50%;
 		}
+		div.container{
+			padding: 15px;
+		}
+		h1 {
+			font-size: 1.4rem;
+		}
+		h2 {
+			font-size: 1rem;
+		}
   </style>
 
 </head>
 
 <body>
-	<div class="container grid-lg" style="padding: 15px 15px 15px 15px">
+	<div class="container grid-lg">
 		<img class="img-responsive profile p-centered" width=150 height=150 src="assets/profile_pic.jpg"/>
-		<h3>Hi there!</h3>
+		<h1>Hi there!</h1>
 		<p class="text-justify">			
-			My name is Thiago, and I have been a <strong>Java middleware</strong> developer for about 7 years. I also enjoy learning and tinkering with different languages and technologies.
-		</p>		
+			My name is Thiago, and I have been a software developer for about 7 years. I'm most experienced with Java and the JVM, but I also enjoy learning and tinkering with different languages and technologies. 
+		</p>
 		<p class="text-justify">
-			I'm based in Brazil and currently looking for interesting and challenging <strong>remote</strong> work opportunities anywhere in the world. Below you can find out more information about my current work and experience, and if you'd like to talk about job opportunities, programming, sim racing, books, guitar or computer games, my email is <strong><span class="email-text tooltip tooltip-bottom" data-tooltip="To avoid spam, please type in this email."/></strong>.
+			I currently reside in Brazil, and I'm looking for interesting and challenging <strong>remote</strong> work opportunities anywhere in the world. Below you can find more information about my current work and experience, and if you'd like to get in touch my email is <strong><span class="email-text tooltip tooltip-bottom" data-tooltip="To avoid spam, please type in this email."/></strong>.
 		</p>
 
-		<h3>Work Experience</h3>
+		<h1>Work Experience</h1>
 
-		<h5>
+		<h2>
 			Developer at <a href="https://www.bb.com.br" target="_blank">Banco do Brasil</a> 
-		</h5>
+		</h2>
 		<p class="label label-secondary">
 			<a href="https://en.wikipedia.org/wiki/Bras%C3%ADlia" target="_blank">Brasília</a> • Since 09/2012
 		</p>
 		<p class="text-justify">
-			I'm the lead developer on the Java library that enables our applications to consume and provide services using a friendly API that abstracts away the complexities of communication between environments (mainframe, distributed and external). We've used <a href="https://netty.io" target="_blank">Netty</a> for the flexibility to use many different network transports and to ensure the library can provide the performance and latency requirements to support the heavy load of our mobile app, online banking, internal platforms and many other applications.
+			I'm currently the lead developer on the Java library that applications use to consume and provide services. It has a developer-friendly API that abstracts away the complexities of communication between environments (mainframe, distributed and external). The library makes use of <a href="https://netty.io" target="_blank">Netty</a> to provide resiliency and high availability using multiple transports, as well as low latency and high-throughput to support the demands of our mobile app, online banking, home broker, internal CRM platforms and many other applications.
 		</p>
 		<p class="text-justify">
-			 My latest work has been with a DevOps team where we used <a href="https://redis.io" target="_blank">Redis</a> to enable solutions that improve network resiliency, reduce response times and mainframe costs, such as:
+			 My latest work has been with a DevOps team, using <a href="https://redis.io" target="_blank">Redis</a> to enable solutions that led to improved network resiliency, lower response times and reduced mainframe processing costs, such as:
 		</p>
 		<ul>
 			<li>Self-monitoring load balancing solution for requests coming into the <a href="https://en.wikipedia.org/wiki/CICS" target="_blank">CICS</a> middleware.</li>
 			<li>Dynamic switching of network transport on a per-service and/or per-consumer basis.</li>
 			<li>Service caching that can be enabled in real time in a transparent way to both the consumer and the provider.</li>
 		</ul>
+		<p class="text-justify">
+			I also help debug and diagnose issues in production, write and maintain the library's documentation (Wiki and Javadocs) and provide developer support over chat, forums and e-mail.
+		</p>
 		
-		<h3>Skills and Technologies</h3>
+		<h1>Skills and Technologies</h1>
 
 		<ul>
-			<li>Java (and related): Netty, CDI, JMS, TIBCO Rendezvous, Docker, Kafka, JCA and Oracle WebLogic.</li>
-			<li>Used for small tools and side projects: Ruby, Go, Kotlin, JavaScript, NodeJS, React, Electron, Bash and Postgres.</li>
+			<li>Main: Java (and JavaEE), Netty, Redis, Linux, Git, Maven, TIBCO Rendezvous, Docker, Kafka.</li>
+			<li>Tools, hobbies and side projects: Ruby, Go, Kotlin, JavaScript, NodeJS, React, Electron, Bash and Postgres.</li>
 		</ul>
 
-		<h3>Languages and Education</h3>
+		<h1>Languages and Education</h1>
 		<ul>	
 			<li>I'm fluent in English and Brazilian Portuguese.</li>
 			<li>I have a bachelor's degree in Computer Science from <a href="https://www.uniceub.br" target="_blank">UniCEUB</a>.</li>
