@@ -4,8 +4,8 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Thiago Arruda's Projects</title>
-  <meta name="description" content="Java, Netty, Low latency, High-throughput Middleware Developer">
+  <title>Thiago Arruda</title>
+  <meta name="description" content="Java, Netty, Low latency, High-throughput Framework Developer">
   <meta name="author" content="Thiago Arruda">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -17,78 +17,100 @@
 	<link rel="manifest" href="assets/site.webmanifest">
 	<link rel="mask-icon" href="assets/safari-pinned-tab.svg" color="#5bbad5">
 	<link rel="shortcut icon" href="assets/favicon.ico">
+
+	<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet"> 
+
 	<meta name="msapplication-TileColor" content="#70bcff">
 	<meta name="msapplication-config" content="assets/browserconfig.xml">
 	<meta name="theme-color" content="#70bcff">
 
   <style>
-		.email-text::before {
-	  	content: "thiarruda@gmail.com";
-	  }
-	  img.profile {
-	  	margin-bottom: 20px;
-		  border-radius: 50%;
+  	body {
+  		font-family: 'Raleway', sans-serif;
+  	}
+  	header {
+  		padding-top: 15px;
+  		background-color:#efefef;
+  	}
+		div.container {
+			padding-right: 15px;
+			padding-left: 15px;
 		}
-		div.container{
-			padding: 15px;
-		}
+		img.profile {
+			margin:auto;
+      border-radius: 50%;
+    }
+    div.profile-pic {
+      display: flex;
+    	align-items: center;
+    	flex-wrap: wrap;
+    }
 		h1 {
-			font-size: 1.4rem;
+			font-size: 1.3rem;
+			margin-bottom: 20px;
+			margin-top: 20px;
 		}
 		h2 {
 			font-size: 1rem;
+			margin-bottom: 15px;
+		}
+		h3 {
+			font-size: 0.8rem;
+			margin-bottom: 15px;
 		}
   </style>
 
 </head>
 
 <body>
-	<div class="container grid-lg">
-		<img class="img-responsive profile p-centered" width=150 height=150 src="assets/profile_pic.jpg"/>
-		<h1>Hi there!</h1>
-		<p class="text-justify">			
-			My name is Thiago, and I have been a software developer for about 7 years. I'm most experienced with Java and the JVM, but I also enjoy learning and tinkering with different languages and technologies. 
-		</p>
-		<p class="text-justify">
-			I currently reside in Brazil, and I'm looking for interesting and challenging <strong>remote</strong> work opportunities anywhere in the world. Below you can find more information about my current work and experience, and if you'd like to get in touch my email is <strong><span class="email-text tooltip tooltip-bottom" data-tooltip="To avoid spam, please type in this email."/></strong>.
-		</p>
+	<header>
+		<div class="container grid-lg">
+			<div class="columns">
+				<div class="column col-3 col-sm-12 profile-pic">
+					<img class="img-responsive profile p-centered" width=150 height=150 src="assets/profile_pic.jpg"/>
+				</div>
 
-		<h1>Work Experience</h1>
+				<div class="column col-9 col-sm-12">
+					<h1>Hi, I'm Thiago!</h1>
+					<p class="text-justify">
+						I'm a software developer with 7 years of experience writing low latency and high-throughput network applications in the financial services industry.	 			
+					</p>
+					<p class="text-justify">
+						I currently reside in Brazil, and I'm looking for <strong>remote</strong> work opportunities anywhere in the world. Below you can find more information about my current work and experience.
+					</p>
+					<p class="text-justify">
+						If you'd like to get in touch my email is <strong>thiarruda@gmail.com</strong>.
+					</p>
+				</div>
+			</div>
+		</header>
+		<div class="container grid-lg">
+			<h1>Work Experience</h1>
 
-		<h2>
-			Developer at <a href="https://www.bb.com.br" target="_blank">Banco do Brasil</a> 
-		</h2>
-		<p class="label label-secondary">
-			<a href="https://en.wikipedia.org/wiki/Bras%C3%ADlia" target="_blank">Brasília</a> • Since 09/2012
-		</p>
-		<p class="text-justify">
-			I'm currently the lead developer on the Java library that applications use to consume and provide services. It has a developer-friendly API that abstracts away the complexities of communication between environments (mainframe, distributed and external). The library makes use of <a href="https://netty.io" target="_blank">Netty</a> to provide resiliency and high availability using multiple transports, as well as low latency and high-throughput to support the demands of our mobile app, online banking, home broker, internal CRM platforms and many other applications.
-		</p>
-		<p class="text-justify">
-			 My latest work has been with a DevOps team, using <a href="https://redis.io" target="_blank">Redis</a> to enable solutions that led to improved network resiliency, lower response times and reduced mainframe processing costs, such as:
-		</p>
-		<ul>
-			<li>Self-monitoring load balancing solution for requests coming into the <a href="https://en.wikipedia.org/wiki/CICS" target="_blank">CICS</a> middleware.</li>
-			<li>Dynamic switching of network transport on a per-service and/or per-consumer basis.</li>
-			<li>Service caching that can be enabled in real time in a transparent way to both the consumer and the provider.</li>
-		</ul>
-		<p class="text-justify">
-			I also help debug and diagnose issues in production, write and maintain the library's documentation (Wiki and Javadocs) and provide developer support over chat, forums and e-mail.
-		</p>
-		
-		<h1>Skills and Technologies</h1>
+			<h2>Developer at <a href="https://www.bb.com.br" target="_blank">Banco do Brasil</a></h2>			
+			<h3><a href="https://en.wikipedia.org/wiki/Bras%C3%ADlia" target="_blank">Brasília, Brazil</a> • Since 09/2012</h3>
 
-		<ul>
-			<li>Main: Java (and JavaEE), Netty, Redis, Linux, Git, Maven, TIBCO Rendezvous, Docker, Kafka.</li>
-			<li>Tools, hobbies and side projects: Ruby, Go, Kotlin, JavaScript, NodeJS, React, Electron, Bash and Postgres.</li>
-		</ul>
-
-		<h1>Languages and Education</h1>
-		<ul>	
-			<li>I'm fluent in English and Brazilian Portuguese.</li>
-			<li>I have a bachelor's degree in Computer Science from <a href="https://www.uniceub.br" target="_blank">UniCEUB</a>.</li>
-		</ul>
-
-	</div>
+			<p class="text-justify">
+				Currently the lead developer on the Java library that applications use to talk to each other. It provides a friendly API that abstracts the complexities of communication between platforms and handles a peak volume of over half a million service requests per minute.
+			</p>
+			<ul>
+				<li>Developed a self-monitoring load balancing solution for requests coming into the <a href="https://en.wikipedia.org/wiki/CICS" target="_blank">CICS</a> middleware.</li>
+				<li>Designed a transparent service response cache that reduced peak mainframe traffic by 15% (and climbing).</li>
+				<li>Implemented real-time switching of network transport on a per-service basis.</li>
+				<li>Integrated the library with JavaEE specifications and frameworks such as Spring.</li>			
+			</ul>		
+			<p></p>
+			<h1>Technical Skills</h1>
+	  	<ul>
+	  		<li>Strong: Java, Netty, Git, Maven, Redis.</li>
+	  		<li>Knowledgeable: Linux, Ruby, Docker, JavaScript, Kafka.</li>  		
+	  	</ul>
+	  	<p></p>
+			<h1>Languages and Education</h1>
+			<ul>	
+				<li>I'm fluent in English and Brazilian Portuguese.</li>
+				<li>I have a bachelor's degree in Computer Science from <a href="https://www.uniceub.br" target="_blank">UniCEUB</a>.</li>
+			</ul>
+		</div>
 </body>
 </html>
